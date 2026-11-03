@@ -1,0 +1,27 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+mlops_env/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Generated customer churn project artifacts
+mlops/mlflow.db
+mlops/mlruns/
+mlops/data/processed_churn.csv
+mlops/reports/*
+mlops/reports/.gitkeep
+mlops/src/generate_report.py
+mlops/reports/.gitkeep
